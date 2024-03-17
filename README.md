@@ -1,7 +1,7 @@
 # wordpress-xmlrpc-brute-force
 Wordpress brute force in xmlrpc 
-python3 bruteForceXmlrpc.py rockyou.txt\n
+python3 bruteForceXmlrpc.py rockyou.txt
 
-Requeriments\n
-pip install requests\n
-pip install beautifulsoup4\n
+Requeriments
+pip install requests
+pip install beautifulsoup4
