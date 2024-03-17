@@ -6,4 +6,5 @@ python3 brute_force_xmlrpc.py rockyou.txt
 Requeriments
 	
 pip install requests
+
 pip install beautifulsoup4
