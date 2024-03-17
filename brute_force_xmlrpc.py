@@ -17,7 +17,7 @@ class brute:
         #print(soup.prettify())
         return resp
 if __name__ == '__main__':
-    url = f"http://{target}/xmlrpc.php"
+    url = f"{target}/xmlrpc.php"
     wp_brute = brute(url)
     with open(passwords, 'r',encoding='latin1') as file:
         file = file.readlines() 
